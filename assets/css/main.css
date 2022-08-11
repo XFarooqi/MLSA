@@ -72,13 +72,15 @@ ul li {
   display: inline-block;
   height: 32px;
   width: 32px;
-  color: #4e4e4e;
+  color: #000;
+  
 }
 .social-block li a i {
   font-size: 1.5em;
 }
 .social-block li a:hover, .social-block li a:focus {
-  color: #000;
+  
+  color: #4e4e4e;
 }
 
 .btn.active.focus,
@@ -137,7 +139,7 @@ ul li {
 }
 
 .section {
-  padding: 70px 0;
+  padding:;
 }
 
 .section-title {
@@ -242,7 +244,7 @@ ul li {
 
 @media (min-width: 768px) {
   .section {
-    padding: 90px 0;
+    padding: 50px 0 40px 0;
   }
 
   .section-title {
@@ -461,7 +463,7 @@ ul li {
 }
 .partner .partner-box {
   display: block;
-  opacity: 0.3;
+  opacity: 1;
   height: 150px;
   width: 150px;
   margin: 25px auto;
@@ -469,7 +471,7 @@ ul li {
           transition: 0.5s all linear;
 }
 .partner .partner-box:hover {
-  opacity: 1;
+  opacity: 0.3;
 }
 .partner .partner-box-1 {
   background: url(../images/partner/partner-1.png) no-repeat center center/contain;
@@ -565,7 +567,8 @@ ul li {
   }
 
   .section-title {
-    margin: 0 0 30px;
+    margin: 0 0 50px 0 ;
+    text-align: center;
   }
 
   figure {
@@ -754,4 +757,14 @@ p {
 .speacker-img-custom {
   border-radius: 50%;
   margin-bottom: 30px;
+}
+
+.custom-headings {
+  font-weight: 800;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: 500;
 }
