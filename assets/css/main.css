@@ -425,6 +425,73 @@ ul li {
   color: #fff;
 }
 
+/*
+ * 6.6.1 Section: Code of Conduct
+ */
+.code-of-conduct {
+  background-color: #f8f8f8;
+}
+.code-of-conduct .section-title {
+  margin-bottom: 20px;
+}
+.code-of-conduct .coc-intro {
+  max-width: 920px;
+  margin: 0 auto 30px;
+}
+.code-of-conduct .coc-columns {
+  margin-top: 15px;
+}
+.code-of-conduct .coc-card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-left: 4px solid #000;
+  padding: 28px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+.code-of-conduct .coc-positive {
+  border-left-color: #0f7f3d;
+}
+.code-of-conduct .coc-negative {
+  border-left-color: #b62626;
+}
+.code-of-conduct .coc-policy {
+  border-left-color: #1f4e93;
+}
+.code-of-conduct h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+.code-of-conduct h5 {
+  margin-top: 22px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.code-of-conduct p {
+  margin-bottom: 14px;
+}
+.code-of-conduct .coc-list {
+  margin-bottom: 14px;
+  padding-left: 20px;
+}
+.code-of-conduct .coc-list li {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.code-of-conduct .coc-inline-list {
+  columns: 2;
+  column-gap: 30px;
+}
+.code-of-conduct .coc-contacts {
+  margin-top: -5px;
+}
+.code-of-conduct .coc-contacts a {
+  font-weight: 700;
+}
+
 /* 
  * 6.6 Section: Schedule
  */
@@ -576,6 +643,16 @@ ul li {
 
   .grid-item-md-3 {
     width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .code-of-conduct .coc-card {
+    padding: 22px 18px;
+  }
+
+  .code-of-conduct .coc-inline-list {
+    columns: 1;
   }
 }
 /* 
